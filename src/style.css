@@ -1,0 +1,109 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url(//fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap);
+html, body {
+    font-size: 15px;
+    background-image: url(https://www.teahub.io/photos/full/93-935601_fondos-de-pantalla-hd-4k-horizontal.jpg);
+    font-family: 'open sans', sans-serif !important;
+    background-size: cover;
+}
+body {margin:0;}
+h1 {
+
+margin:auto;
+width:auto;
+font: 400 10vh "vibur";
+text-align:center;
+color: rgb(255, 255, 255);
+text-shadow: 
+        0 0 7px rgb(189, 67, 158),
+        0 0 10px rgb(228, 114, 213),
+        0 0 21px rgb(230, 159, 220), 
+}
+.t1{
+    text-align:center;
+    color: white;
+    font: 400 15px "Mochiy Pop P One";
+}
+
+.btn {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font: 400 12px "Mochiy Pop P One";
+padding:10px 41px;
+text-decoration:none;
+}
+.btn:hover {
+    background:linear-gradient(to bottom, #ff23da 5%,#ff64ea 100%);
+    background-color: #f823ff;
+}
+.btn:active {
+    position:relative;
+    top:1px;
+}
+.box{
+    background: #311717;
+    width: 40%; /*CUANDO COLOCAS EN %, quiere decir tomara de cualquier tamaño de la pantalla su 30 %*/
+    height: 700px; /*CUANDO COLOCAS EN PX, es estatico, no es responsive*/
+    margin: auto; /*Centrar la caja*/
+
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+    /*Espacio entre lineas*/
+    line-height: 20px;
+    /*Centrado*/
+    text-align: justify;
+}
+.input {
+    font: 400 12px "Mochiy Pop P One";
+    resize: none;
+    height: 3em;
+    text-align: center;
+    width: 210px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 1.5rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2rem #bc13fe,
+                inset 0 0 0.5rem #bc13fe;
+
+}
+textarea {
+    font: 400 12px "Mochiy Pop P One";
+    resize: none;
+    height: 5em;
+    text-align: center;
+    width: 300px;
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 1.5rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2rem #bc13fe,
+                inset 0 0 0.5rem #bc13fe;
+}
+.input:focus {
+    outline:none;
+}
+
