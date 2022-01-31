@@ -26,7 +26,7 @@ const cipher = {
       }else  if(string.charCodeAt(i)>=97&&string.charCodeAt(i)<=122){
         aux+=String.fromCharCode((string.charCodeAt(i)-offset-122)%26+122)
       
-   }else{
+  }else{
         aux = "No se admiten caracteres fuera del abecedario ingles "
       }
     }
